@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.servicewrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 0px;
+    max-width: 1100px;
+    margin: auto;
+    gap: 35px;
+    margin-top: 100px;
+}
+.service-card{
+    border: 1px solid white;
+    width: 270px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    margin: 40px 10px;
+    background-color: white;
+    box-shadow: -15px 15px 16px #00000030;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.service-card .user-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card .home-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card .wifi-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid #fd5c5c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card .cart-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid #9494ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card .car-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid palegreen;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card .yellow-icon::after{
+    position: absolute;
+    content: "";
+    border: 18px solid yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.service-card h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+.service-card p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-icon, .home-icon, .wifi-icon, .cart-icon, .car-icon, .yellow-icon{
+    font-size: 25px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -55px auto auto auto;
+    box-shadow: -4px 3px 5px #00000047;
+}
+.home-icon{
+    color: orange;
+}
+.wifi-icon{
+    color: #df3d3d;
+}
+.cart-icon{
+    color: #9494ff;
+}
+.car-icon{
+    color: #00ffff;
+}
+.yellow-icon{
+    color: yellow;
+}
+.service-card span{
+    width: 80px;
+    height: 20px;
+    background-color: #5959fc;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+}
+.service-card::before{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    background-color: #00000033;
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px;
+}
+.service-card .box-2{
+    background-color: orange;
+}
+.service-card .box-3{
+    background-color: #df3d3d;
+}
+.service-card .box-4{
+    background-color: #9494ff;
+}
+.service-card .box-5{
+    background-color: #00ffff;
+}
+.service-card .box-6{
+    background-color: yellow;
+}
